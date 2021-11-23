@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+.centering {
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-y: scroll;
+}
+.centering::-webkit-scrollbar {
+    display: none;
+}
+.home-image {
+    height: 400px;
+    width: 700px;
+    box-shadow: 5px 10px #EAECF5;
+}
