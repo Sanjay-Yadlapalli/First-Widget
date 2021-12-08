@@ -1,0 +1,17 @@
+.main-container {
+    height: 635px;
+    width: 1060px;
+    background-size: cover;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-side-stuff {
+    margin-left: 10px;
+    height: 635px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
